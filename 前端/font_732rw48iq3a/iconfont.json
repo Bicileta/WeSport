@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2600438",
+      "name": "足球",
+      "font_class": "zuqiu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "15267564",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "15601916",
+      "name": "闹钟",
+      "font_class": "naozhong",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    }
+  ]
+}

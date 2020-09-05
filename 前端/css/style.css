@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.all{
+    width: 1330px;
+    height: 800px;
+    margin: auto;
+    background: #829a61;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 30%;
+}
+.left ul{
+    display: flex;
+    margin-top: 15px;
+}
+.left ul li{
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+ ul li a{
+    text-decoration: none;
+     color: #fff;
+}
+ul li:hover{
+    color: #fce79a;
+}
+.right ul{
+    display: flex;
+    margin-top: 15px;
+    color: white;
+}
+.right ul li{
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ren{
+    width: 100%;
+    display: flex;
+}
+.ren .ren-left{
+    width: 40%;
+}
+.ren .ren-left h1{
+    color: white;
+    font-size: 100px;
+    margin-left: 15px;
+}
+.left-img{
+    margin-left: 50px;
+}
+.btn-left{
+    float: right;
+    background: #75c8d6;
+    border: 0;
+    width: 230px;
+    height: 45px;
+    color: white;
+    outline: none;
+    margin-right: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: lightgray 1px 3px;
+    font-size: 25px;
+}
+.ren-right{
+    position: relative;
+}
+.ren-right img{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.ren .ren-right h1{
+    color: white;
+    font-size: 100px;
+    margin-top: -97px;
+    margin-left:254px;
+}
+.btn-right{
+    float: left;
+    margin-left: 15%;
+    margin-top: 50px;
+    background: #ee8970;
+    position: absolute;
+    border: 0;
+    width: 230px;
+    height: 45px;
+    color: white;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: lightgray 1px 3px;
+    font-size: 25px;
+    left: 0px;
+    bottom:0px;
+}

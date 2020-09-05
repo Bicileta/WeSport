@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.all{
+    width: 1330px;
+    height: 800px;
+    margin: auto;
+    background: #829a61;
+    position: relative;
+}
+nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 30%;
+}
+.left ul{
+    display: flex;
+    margin-top: 15px;
+}
+.left ul li{
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li:hover{
+    color: #fce79a;
+}
+.right ul{
+    display: flex;
+    margin-top: 15px;
+    color: white;
+}
+.right ul li{
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.yhu{
+    width: 150px;
+    height: 150px;
+    margin: 50px 20px;
+    position: relative;
+}
+.yhu img{
+    width: 100%;
+}
+.yhu span{
+    position: absolute;
+    top: 50px;
+    left: 280px  ;
+    color: white;
+    font-size: 40px;
+}
+.name{
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    left: 480px  ;
+}
+.top{
+    width: 100%;
+    display: flex;
+}
+.t-left{
+    width: 50%;
+}
+.box{
+    width: 70%;
+    background: #fce79a;
+    margin: auto;
+    border-radius: 15px;
+    padding: 50px;
+}
+.box h1{
+    margin-bottom: 20px;
+}
+.h{
+    margin-bottom: 25px;
+}
+.t-right{
+    width: 50%;
+}
+.bottom{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.b-left,.b-right{
+    width: 50%;
+}
+.box2{
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 50px;
+    background: #75c8d6;
+    position: relative;
+}
+.box2 p{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.box2 h1{
+    text-align: center;
+    color: white;
+
+    /*#ee8970*/
+}
+.text{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    background: #b6e4eb;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.text h4{
+    padding-top: 10px;
+}
+
+.box3{
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 50px;
+    background: #ee8970;
+    position: relative;
+}
+.box3 p{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.box3 h1{
+    text-align: center;
+    color: white;
+
+    /*#ee8970*/
+}

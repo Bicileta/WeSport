@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.all{
+    width: 1330px;
+    height: 800px;
+    margin: auto;
+    background: #829a61;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 30%;
+}
+.left ul{
+    display: flex;
+    margin-top: 15px;
+}
+.left ul li{
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li:hover{
+    color: #fce79a;
+}
+.right ul{
+    display: flex;
+    margin-top: 15px;
+    color: white;
+}
+.right ul li{
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.yhu{
+    width: 150px;
+    height: 150px;
+    margin: 50px 20px;
+    position: relative;
+}
+.yhu img{
+    width: 100%;
+}
+.yhu span{
+    position: absolute;
+    top: 50px;
+    left: 280px  ;
+    color: white;
+    font-size: 40px;
+}
+.wen{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background: #fce79a;
+    border-radius: 15px;
+    padding: 35px;
+}
+.w-left{
+    width: 30%;
+}
+.w-right{
+    width: 70%;
+}
+form{
+    width: 100%;
+    display: flex;
+}
+.f-left{
+    width: 30%;
+}
+.f-left h4{
+    margin-bottom: 35px;
+}
+.f-right{
+    width: 70%;
+}
+.w-right input{
+    width: 70%;
+    margin: 0 auto 30px;
+    height: 25px;
+    border-radius: 10px;
+    border: 0;
+}
+.name{
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    left: 480px  ;
+}
