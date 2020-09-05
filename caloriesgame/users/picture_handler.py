@@ -19,7 +19,8 @@ def add_profile_pic(pic_upload,username):
 
 	#format the size
 	output_size = (256,256)
-	picture.thumbnail(output_size)
+	picture.thumbnail(output_size,Image.ANTIALIAS)
 
 	#save
 	picture.save(filepath)
+	return filepath

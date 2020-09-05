@@ -20,12 +20,12 @@ class Registration(FlaskForm):
 	pass_confirm = PasswordField('Confirm password', validators=[DataRequired()])
 	submit = SubmitField('Sign up')
 
-	def check_email(self,field):
-		if User.query.filter_by(email=field.data).first():
-			raise ValidationError('Your email address already exists!')
+	def validate_email(self,email):
+		if User.query.filter_by(email=self.email.data).first():
+			raise ValidationError('This email address already exists!')
 
 
 class UpdateUserInfo(FlaskForm):
 	username = StringField('UserName', validators=[DataRequired()])
 	avatar = FileField('Edit Avatar',validators=[FileAllowed(['png','jpg'])])
-	
+	submit = SubmitField('Update')
